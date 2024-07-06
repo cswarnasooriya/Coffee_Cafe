@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Services from './Components/Services';
 import Banner from './Components/Banner';
+import Appstore from './Components/Appstore';
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
       <Home/>
       <Services/>
       <Banner/>
+      <Appstore/>
     </div>
   )
 }
