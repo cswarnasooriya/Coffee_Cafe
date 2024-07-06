@@ -31,7 +31,9 @@ const ServicesData = [
 
 const Services = () => {
   return (
-    <div className="py-10">
+    <>
+      <span id='services'></span>
+      <div className="py-10" >
       <div className="container">
 
         {/* header title */}
@@ -79,6 +81,8 @@ const Services = () => {
 
       </div>
     </div>
+    </>
+    
   )
 }
 

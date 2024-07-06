@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import Services from './Components/Services';
+import Banner from './Components/Banner';
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       <Navbar/>
       <Home/>
       <Services/>
+      <Banner/>
     </div>
   )
 }
