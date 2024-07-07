@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Services from './Components/Services';
 import Banner from './Components/Banner';
 import Appstore from './Components/Appstore';
+import Testimonials from './Components/Testimonials';
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
       <Services/>
       <Banner/>
       <Appstore/>
+      <Testimonials/>
     </div>
   )
 }
