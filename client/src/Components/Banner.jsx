@@ -24,25 +24,25 @@ const Banner = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
 
                     {/* image section */}
-                    <div>
+                    <div data-aos="zoom-in" data-aos-delay="100">
                         <img src={BannerImg} alt="Banner image"
                         className="max-w-[380px] w-full mx-auto spin drop-shadow-xl" />
                     </div>
 
                     {/* text content section */}
 
-                    <div className="flex flex-col justify-center gap-10 sm:pt-0">
-                        <h1 className="text-3xl sm:text-4xl font-bold font-cursive text-white">
+                    <div  className="flex flex-col justify-center gap-10 sm:pt-0">
+                        <h1 data-aos="fade-right" data-aos-delay="200" className="text-3xl sm:text-4xl font-bold font-cursive text-white">
                             Premium Blend Coffee
                         </h1>
 
-                        <p className="text-sm text-gray-300 tracking-wide leading-5">
+                        <p data-aos="fade-left" data-aos-delay="300" className="text-sm text-gray-300 tracking-wide leading-5">
                         The Toscana Ceylon project is married to a CSR and sustainability project which is dedicated to the wellbeing of Sri Lankan coffee farmers and families that get involved in process of coffee processing. 
                         <br /><br />
                         Part of the Colombo Coffee Company, Toscana Ceylon is proudly Sri Lankan and is working to help improve the local coffee industry, sustaining the harvesting of coffee with both our people and the planet in mind. 
                         </p>
 
-                        <div className="grid grid-cols-2 gap-6">
+                        <div data-aos="zoom-in" data-aos-delay="400" className="grid grid-cols-2 gap-6">
                             <div className="space-y-5">
 
                                 <div className="flex items-center gap-3">

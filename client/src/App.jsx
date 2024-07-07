@@ -7,6 +7,7 @@ import Services from './Components/Services';
 import Banner from './Components/Banner';
 import Appstore from './Components/Appstore';
 import Testimonials from './Components/Testimonials';
+import Footer from './Components/Footer';
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
       <Banner/>
       <Appstore/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
